@@ -1,0 +1,33 @@
+div.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+p {
+    color: blue;
+}
+.firstcard {
+    position: absolute;
+    top: 580px;
+    left: 530px;
+}
+.secondcard {
+    position: absolute;
+    top: 580px;
+    left: 630px;
+}
+.thirdcard {
+    position: absolute;
+    top: 0px;
+    left: 530px;
+}
+.fourthcard {
+    position: absolute;
+    top: 0px;
+    left: 630px;
+}
+.table {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
