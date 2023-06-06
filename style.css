@@ -4,7 +4,9 @@ div.container {
     justify-content: center;
 }
 p {
-    color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
 }
 .firstcard {
     position: absolute;
@@ -18,16 +20,51 @@ p {
 }
 .thirdcard {
     position: absolute;
-    top: 0px;
+    top: 10px;
     left: 530px;
 }
 .fourthcard {
     position: absolute;
-    top: 0px;
+    top: 10px;
     left: 630px;
 }
 .table {
     position: absolute;
     top: 0px;
     left: 0px;
+}
+.flopone {
+    position: absolute;
+    top: 310px;
+    left: 450px;
+}
+.floptwo {
+    position: absolute;
+    top: 310px;
+    left: 530px;
+}
+.flopthree {
+    position: absolute;
+    top: 310px;
+    left: 610px;
+}
+.turn {
+    position: absolute;
+    top: 310px;
+    left: 690px;
+}
+.river {
+    position: absolute;
+    top: 310px;
+    left: 770px;
+}
+.littlechip {
+    position: absolute;
+    top: 460px;
+    left: 550px;
+}
+.value {
+    position: absolute;
+    top: 450px;
+    left: 590px;
 }
