@@ -1,70 +1,110 @@
 div.container {
-    position: relative;
-    display: flex;
-    justify-content: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
+
 p {
-    color: white;
-    font-size: 20px;
-    font-weight: bolder;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
 }
-.firstcard {
-    position: absolute;
-    top: 580px;
-    left: 530px;
+
+#firstcard {
+  position: absolute;
+  top: 580px;
+  left: 640px;
+  width: 95px;
 }
-.secondcard {
-    position: absolute;
-    top: 580px;
-    left: 630px;
+
+#secondcard {
+  position: absolute;
+  top: 580px;
+  left: 740px;
+  width: 95px;
 }
-.thirdcard {
-    position: absolute;
-    top: 10px;
-    left: 530px;
+
+#thirdcard {
+  position: absolute;
+  top: 10px;
+  left: 640px;
+  width: 95px;
 }
-.fourthcard {
-    position: absolute;
-    top: 10px;
-    left: 630px;
+
+#fourthcard {
+  position: absolute;
+  top: 10px;
+  left: 740px;
+  width: 95px;
 }
-.table {
-    position: absolute;
-    top: 0px;
-    left: 0px;
+
+#table {
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
-.flopone {
-    position: absolute;
-    top: 310px;
-    left: 450px;
+
+#flopone {
+  position: absolute;
+  top: 310px;
+  left: 560px;
+  width: 70px;
 }
-.floptwo {
-    position: absolute;
-    top: 310px;
-    left: 530px;
+
+#floptwo {
+  position: absolute;
+  top: 310px;
+  left: 640px;
+  width: 70px;
 }
-.flopthree {
-    position: absolute;
-    top: 310px;
-    left: 610px;
+
+#flopthree {
+  position: absolute;
+  top: 310px;
+  left: 720px;
+  width: 70px;
 }
-.turn {
-    position: absolute;
-    top: 310px;
-    left: 690px;
+
+#turn {
+  position: absolute;
+  top: 310px;
+  left: 800px;
+  width: 70px;
 }
-.river {
-    position: absolute;
-    top: 310px;
-    left: 770px;
+
+#river {
+  position: absolute;
+  top: 310px;
+  left: 880px;
+  width: 70px;
 }
-.littlechip {
-    position: absolute;
-    top: 460px;
-    left: 550px;
+
+#littlechip {
+  position: absolute;
+  top: 460px;
+  left: 660px;
+  width: 40px;
 }
-.value {
-    position: absolute;
-    top: 450px;
-    left: 590px;
+
+#value {
+  position: absolute;
+  top: 450px;
+  left: 700px;
+}
+
+#newhandbutton {
+  position: absolute;
+  top: 600px;
+  left: 1000px;
+}
+
+#betbutton {
+  position: absolute;
+  top: 630px;
+  left: 1000px;
+}
+
+.myImage {
+  opacity: 0;
+  transition: opacity 1s ease-in;
 }

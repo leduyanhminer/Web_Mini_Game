@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="container">
-        <img src="/images/poker_table.jpg" width=1300px class="table">
-        <img src="/images/king_of_clubs2.png" width="95" class="firstcard">
-        <img src="/images/king_of_hearts2.png" width="95" class="secondcard">
-        <img src="/images/off_face.png" width="95" class="thirdcard">
-        <img src="/images/off_face.png" width="95" class="fourthcard">
-        <img src="/images/10_of_hearts.png" width="70" class="flopone">
-        <img src="/images/2_of_clubs.png" width="70" class="floptwo">
-        <img src="/images/ace_of_diamonds.png" width="70" class="flopthree">
-        <img src="/images/queen_of_spades2.png" width="70" class="turn">
-        <img src="/images/5_of_clubs.png" width="70" class="river">
-        <img src="/images/chip_poker.png" width="40" class="littlechip">
-        <p class="value">2.5BB</p>
-    </div>
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>PokerGame</title>
+</head>
+
+<body>
+  <div class="container">
+    <img src="/images/poker_table.jpg" width=1300px class="table">
+    <img id="firstcard" class="myImage">
+    <img id="secondcard" class="myImage">
+    <img id="thirdcard" class="myImage">
+    <img id="fourthcard" class="myImage">
+    <img id="flopone" class="myImage">
+    <img id="floptwo" class="myImage">
+    <img id="flopthree" class="myImage">
+    <img id="turn" class="myImage">
+    <img id="river" class="myImage">
+    <img id="littlechip" src="/images/chip_poker.png">
+    <p id="value">2.5BB</p>
+    <script src="script.js"></script>
+    <button id="newhandbutton" onclick="newHand()">NEW HAND</button>
+    <button id="betbutton" onclick="bet()">BET</button>
+  </div>
 </body>
+
 </html>
