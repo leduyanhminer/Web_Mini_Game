@@ -128,7 +128,9 @@ p {
 }
 
 #myTotalMoney {
+  color: white;
   position: absolute;
-  top: 650px;
-  left: 1000px;
+  top: 100px;
+  left: 1250px;
+  font-size: 50px;
 }
