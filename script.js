@@ -10,7 +10,9 @@ let betButton = document.getElementById("betbutton");
 let newButtonsContainer = document.getElementById("newButtonsContainer");
 let betMoney = document.getElementById("value");
 let littleChip = document.getElementById("littlechip");
-
+let fivecard = []
+let mycard = []
+let oppcard = []
 // sinh ngau nhien la bai
 function randomCard() {
   const so = Math.floor(Math.random() * 13);
@@ -65,6 +67,13 @@ function bet(bet_money) {
     card_i.style.opacity = 1;
   }
   check_bet = 1;
+  mycard = [];
+  oppcard = [];
+  for(let i = 0; i <= 6; ++i){
+    mycard.push(kytu[check[i][0]] + type[check[i][1]]);
+  }
+  let my_card_value = evaluateHandPoint(mycard);
+  let oop_card_value = evaluateHandPoint(oppcard);
 }
 
 
@@ -98,3 +107,8 @@ function updateMyMoney() {
   myMoney.innerText = my_money;
 }
 
+function evaluateHandPoint() {
+  let max_point = 0;
+  fivecard = []
+  return 0;
+}
