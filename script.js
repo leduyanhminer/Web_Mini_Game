@@ -14,7 +14,7 @@ let fivecard = []
 let mycard = []
 let oppcard = []
 // sinh ngau nhien la bai
-function randomCard() {
+let randomCard = () =>{
   const so = Math.floor(Math.random() * 13);
   const kieu = Math.floor(Math.random() * 4);
   let check = 1;
@@ -28,7 +28,7 @@ function randomCard() {
 }
 
 // hand bai moi
-function newHand() {
+let newHand = () =>{
   if(check_bet === 0) return;
   console.log('new')
   newButtonsContainer.innerHTML = "";
@@ -53,7 +53,7 @@ function newHand() {
 }
 
 // lenh bet
-function bet(bet_money) {
+let bet = (bet_money)  =>{
   console.log(bet_money);
   if(my_money<bet_money) return 0;
   littleChip.src = "/images/chip_poker.png";
@@ -102,12 +102,12 @@ betButton.addEventListener("click", function() {
 });
 
 // cap nhat so tien hien tai cua player
-function updateMyMoney() {
+let updateMyMoney = () => {
   let myMoney = document.getElementById("myTotalMoney");
   myMoney.innerText = my_money;
 }
 
-function evaluateHandPoint() {
+let evaluateHandPoint = () => {
   let max_point = 0;
   fivecard = []
   return 0;
